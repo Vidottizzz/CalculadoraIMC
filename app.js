@@ -21,6 +21,7 @@
         console.log(data);
 
     result.innerHTML = `Seu IMC é: <strong>${imc}</strong>`;
+    
     };
 
 
