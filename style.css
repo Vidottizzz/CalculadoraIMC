@@ -25,11 +25,12 @@ p{
 }
 button {
     padding: 0.7rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+
     width: 15rem;
     border-radius: 1rem;
     font-size: 1rem;
-    margin-left: 16.5rem;
+    
     cursor: pointer;
     background-color: rgba(211, 208, 208,0.4);
     
@@ -40,40 +41,37 @@ button:hover {
 }
 .inpt{
     padding: 1rem;
-    width: 20rem;
     width: 100%;
     border-radius: 0.5rem;
     font-size: 1.4rem;
 }
-.tabela {
-    display: flex;
-    padding-bottom: 1rem;
-}
 
-.tabela1{
-  
-   width: 20rem;
-}
-.tabela2{
-    
-    padding-left: 6rem;
-   
-}
 .card {
     background-color:white;
     width: 50rem;
-    height: 62.8rem;
+    height: 44rem;
     margin: auto;
     display: flex;
     border-radius: 1rem;
+    margin-top: 6rem;
 }
 .card-content {
     width: 100%;
     padding: 1.5rem;
     
 }
-#result {
-    font-size: 1.5rem;
-    padding-top : 3rem;
-    text-align: center;
+
+.pWarning {
+    background: rgb(156, 2, 33,0.75);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding-left: 1.5rem;
 }
+
+.pOkay {
+    background-color:rgba(124, 252, 0, 0.6);
+     border-radius: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
